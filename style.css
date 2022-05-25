@@ -1,0 +1,333 @@
+/* 
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo {
+  width: 5%;
+  height: 5%;
+}
+
+h2 {
+  padding: 2%;
+}
+
+h1{
+  font-size: 3em;
+  margin-bottom: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  height: 85vh;
+}
+
+main article {
+  width: 100%
+}
+
+div{
+  background: darkblue;
+}
+
+#left {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  margin-top: 5%;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding-left: 2%;
+  outline: 0;
+  background: transparent;
+  border: 1px solid black;
+}
+
+button {
+  background: darkblue;
+  height: 40px;
+  width: 100%;
+  margin-top: 5%;
+  outline: 0;
+  border: 1px solid transparent;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: color 0.5s ease, background 0.5s ease;
+}
+
+button:hover {
+  background: transparent;
+  color: darkblue;
+  border: 1px solid darkblue
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: 85vh;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5%
+}
+
+.fa-facebook{
+  color: darkblue;
+}
+
+.fa-twitter{
+  color: rgb(0, 202, 185)
+}
+
+.fa {
+  padding: 1%;
+  margin-top: 0.3%;
+  transition: color 0.5s ease;
+}
+
+.fa:hover {
+  color: black;
+}
+
+#foot2 {
+  visibility: hidden;
+  position: relative;
+  bottom: 0;
+}
+
+
+
+
+
+
+@media (max-width: 900px) and(min-width: 360px){
+  main {
+    flex-direction: column;
+  }
+  footer {
+    margin-top: 5%
+  }
+  #foot1 {
+    display: none;
+  }
+  #foot2 {
+    visibility: visible;
+    padding-bottom: 5%;
+  }
+  #logo {
+    width: 10%;
+    height: 10%;
+  }
+  
+  h2 {
+    padding: 2%;
+  }
+  
+}
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo {
+  width: 5%;
+  height: 5%;
+}
+
+h2 {
+  padding: 2%;
+}
+
+h1{
+  font-size: 3em;
+  margin-bottom: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 85vh;
+}
+
+main article {
+  width: 100%
+}
+
+div{
+  background: darkblue;
+}
+
+#left {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  margin-top: 5%;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding-left: 2%;
+  outline: 0;
+  background: transparent;
+  border: 1px solid black;
+}
+
+button {
+  background: darkblue;
+  height: 40px;
+  width: 100%;
+  margin-top: 5%;
+  outline: 0;
+  border: 1px solid transparent;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: color 0.5s ease, background 0.5s ease;
+}
+
+button:hover {
+  background: transparent;
+  color: darkblue;
+  border: 1px solid darkblue
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: 85vh;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5%
+}
+
+.fa-facebook{
+  color: darkblue;
+}
+
+.fa-twitter{
+  color: rgb(0, 202, 185)
+}
+
+.fa {
+  padding: 1%;
+  margin-top: 0.3%;
+  transition: color 0.5s ease;
+}
+
+.fa:hover {
+  color: black;
+}
+
+#foot2 {
+  visibility: hidden;
+  position: relative;
+  bottom: 0;
+}
+
+
+
+
+/* Responsiveness */
+
+@media (max-width: 900px) and (min-width: 360px){
+  main {
+    display: grid;
+    grid-template-columns: auto;
+    height: 85vh;
+  }
+  
+  footer {
+    margin-top: 5%
+  }
+  #foot1 {
+    display: none;
+  }
+  #foot2 {
+    visibility: visible;
+    padding-bottom: 5%;
+  }
+  #logo {
+    width: 10%;
+    height: 10%;
+  }
+  
+  h2 {
+    padding: 2%;
+  }
+  
+}
+
+
+
+
